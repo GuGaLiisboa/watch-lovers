@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Audemars Piguet - Outros Modelos</title>
+		<link rel="icon" href="../imagens/icone.jpg">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@400;500&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="../css/modelos-audemars.css">
+		<link rel="stylesheet" href="../js/magnific.popup.css">
+    	<link rel="stylesheet" href="../js/jquery.bxslider.css">
+    	<script src="../js/jquery.min.js"></script>
+    	<script src="../js/jquery.bxslider.min.js"></script>
+    	<script src="../js/magnific.popup.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#slider').bxSlider({
+                mode: 'horizontal',
+                speed: '350',
+                auto: true,
+                pager: false,
+            });
+
+            $('#section-2').magnificPopup({
+                delegate: 'a',
+                type: 'image',
+                closeOnContentClick: false,
+                closeBtnInside: false,
+                mainClass: 'mfp-with-zoom mfp-img-mobile',
+                image: {
+                    verticalFit: true
+                },
+
+                gallery: {
+                    enabled: true
+                },
+                zoom: {
+                    enabled: true,
+                    duration: 300, // don't foget to change the duration also in CSS
+                    opener: function (element) {
+                        return element.find('img');
+                    }
+                }
+
+            });
+
+        });
+    </script>
+	</head>
+	<body>
+
+		<header> <!-- HEADER -->
+			<a href="../index.html">
+				<img class="logo" src="../imagens/logobold-branco.png">
+			</a>
+			<nav class="meio menu">
+				<a href="../paginas/modelos-rolex.html">Rolex</a>
+				<a href="../paginas/modelos-audemars.html">Audemars Piguet</a>
+				<a href="../paginas/modelos-rm.html">Richard Mille</a>
+				<a href="../paginas/modelos-patek.html">Patek Philippe</a>
+				<a href="../paginas/modelos-jacob.html">Jacob & Co</a>
+			</nav>
+			<nav class="direita">
+				<a href="../paginas/famosos.html" class="menu">Famosos</a>
+
+			</nav>
+		</header>
+
+			<section id="rolex"> <!-- SESSÃO INICIAL DA PAGINA -->
+				<video class="video" autoplay loop muted>
+					<source src="../videos/audemars2.mp4">
+				</video>
+				<div class="conteudo">
+					<h1>AUDEMARS PIGUET</h1>
+					<p>ALGUNS MODELOS</p>
+				</div>
+			</section>
+
+			<section id="section-2"> <!-- SESSÃO DAS IMAGENS DOS MODELOS -->
+				<div class="alinhamento-modelos">
+					<h2>CONFIRA ALGUNS DOS MODELOS AUDEMARS PIGUET</h2>
+			
+					<ul>
+						<li><a href="../imagens/audemars/foto1.png"><img src="../imagens/audemars/foto1.png" alt="Foto 01"></a><h3>ROYAL OAK</h3>
+						<span>SELFWINDING FLYING TOURBILLON "50TH ANNIVERSARY"</span></li>
+
+						<li><a href="../imagens/audemars/foto2.png"><img src="../imagens/audemars/foto2.png" alt="Foto 02"></a><h3>ROYAL OAK CONCEPT</h3>
+						<span>FLYING TOURBILLON GMT</span></li>
+
+						<li><a href="../imagens/audemars/foto3.png"><img src="../imagens/audemars/foto3.png" alt="Foto 03"></a><h3>CODE 11.59</h3>
+						<span>TOURBILLON OPENWORKED</span></li>
+
+						<li><a href="../imagens/audemars/foto4.png"><img src="../imagens/audemars/foto4.png" alt="Foto 04"></a><h3>ROYAL OAK DOUBLE BALANCE</h3>
+						<span>WHEEL OPENWORKED</span></li>
+
+						<li><a href="../imagens/audemars/foto5.png"><img src="../imagens/audemars/foto5.png" alt="Foto 05"></a><h3>CODE 11.59</h3>
+						<span>SELFWINDING</span></li>
+
+						<li><a href="../imagens/audemars/foto6.png"><img src="../imagens/audemars/foto6.png" alt="Foto 06"></a><h3>ROYAL OAK</h3>
+						<span>SELFWINDING "50TH ANNIVERSARY"</span></li>
+					</ul>
+				</div>
+			</section>
+
+			<section id="section-banners"> <!-- SESSÃO DO GODFATHER 50TH -->
+				<div class="alinhamento-modelos">
+					<h2>O NOVO STARWHEEL E AS HORAS ERRANTES</h2>
+					<ul id="slider">
+						<li><img src="../imagens/audemars/banner1.jpg" alt="banner1"></li>
+						<li><img src="../imagens/audemars/banner2.jpg" alt="banner2"></li>
+						<li><img src="../imagens/audemars/banner3.jpg" alt="banner3"></li>
+					</ul>
+					<p>
+						Inventadas no século XVII, as horas errantes são um tipo de complicação relojoeira que exibe as horas por meio de um sistema de satélites que gravitam ao longo de uma escala de minutos disposta em forma de arco. Essa apresentação estética das horas e minutos traz uma certa mística à leitura do tempo.
+					</p>
+					<p>
+						Depois de ficar em baixa no século 20, esse sistema foi redescoberto e reintroduzido pela Audemars Piguet em 1991. Chamado de Starwheel, esse mecanismo incomum equipou muitos modelos até o início dos anos 2000.
+					</p>
+					<p>
+						O Code 11.59 da Audemars Piguet Starwheel revisita a tradição das horas errantes com um novo relógio ultracontemporâneo que combina cerâmica preta com ouro branco de 18 quilates.
+					</p>
+					<p>
+						Nesta ocasião, Audemars Piguet colaborou com o artista francês Ugo Gattoni, que desenvolveu um universo original, colorido e imaginativo para ecoar o design contemporâneo deste relógio e o misterioso tecnicismo da exibição do tempo errante.
+					</p>
+					<p>
+						Hoje, a Starwheel está de volta na coleção Code 11.59 by Audemars Piguet, cujo design ultracontemporâneo destaca esta exibição fascinante ao mesmo tempo em que presta homenagem a um clássico relativamente desconhecido nas complicações da Alta Relojoaria.
+					</p>
+				</div>
+			</section>
+
+			<section id="section-3"> <!-- SESSÃO DO VIDEO NO YOUTUBE -->
+				<div>
+					<h2>DETALHES DE UM STARWHEEL</h2>
+					<p>E UMA AMOSTRA DA COMPLICAÇÃO "HORAS ERRANTES"</p>
+			
+					<video height="400" width="800" controls>
+						<source src="../videos/audemars3.mp4">
+					</video>
+
+				</div>
+			</section>
+			
+			<div id="rodape-0"> <!-- ANTES DO RODAPÉ -->
+				<div class="parte-1">
+					<img class="logo-rodape" src="../imagens/logobold-branco.png">
+					<p>PARA OS AMANTES DA ALTA RELOJOARIA</p>
+				</div>
+
+				<div class="parte-2">
+					<h3>SITES OFICIAIS DAS MARCAS</h3>
+					<ul>
+						<li><a href="https://www.rolex.com/pt_br">Rolex</a></li>
+						<li><a href="https://www.audemarspiguet.com/com/en/home.html">Audemars Piguet</a></li>
+						<li><a href="https://www.richardmille.com/">Richard Mille</a></li>
+						<li><a href="https://www.patek.com/en/home">Patek Philippe</a></li>
+						<li><a href="https://jacobandco.com/">Jacob & Co</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<footer id="rodape"> <!-- RODAPÉ -->
+				<span class="txt-rodape-1" href="">© 2022 Watch Lovers</span>
+				<a class="txt-rodape-2" href="https:/instagram.com/gugaliisboa">Created by Gustavo</a>
+			</footer>
+	</body>
+</html>

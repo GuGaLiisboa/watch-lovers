@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Watch Lovers - Famosos</title>
+		<link rel="icon" href="../imagens/icone.jpg">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@400;500&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="../css/famosos.css">
+		<link rel="stylesheet" href="../js/magnific.popup.css">
+    	<link rel="stylesheet" href="../js/jquery.bxslider.css">
+    	<script src="../js/jquery.min.js"></script>
+    	<script src="../js/jquery.bxslider.min.js"></script>
+    	<script src="../js/magnific.popup.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#slider').bxSlider({
+                mode: 'horizontal',
+                speed: '350',
+                auto: true,
+                pager: false,
+            });
+
+            $('#section-2').magnificPopup({
+                delegate: 'a',
+                type: 'image',
+                closeOnContentClick: false,
+                closeBtnInside: false,
+                mainClass: 'mfp-with-zoom mfp-img-mobile',
+                image: {
+                    verticalFit: true
+                },
+
+                gallery: {
+                    enabled: true
+                },
+                zoom: {
+                    enabled: true,
+                    duration: 300, // don't foget to change the duration also in CSS
+                    opener: function (element) {
+                        return element.find('img');
+                    }
+                }
+
+            });
+
+        });
+    </script>
+	</head>
+	<body>
+
+		<header> <!-- HEADER -->
+			<a href="../index.html">
+				<img class="logo" src="../imagens/logobold-branco.png">
+			</a>
+			<nav class="meio menu">
+				<a href="../paginas/modelos-rolex.html">Rolex</a>
+				<a href="../paginas/modelos-audemars.html">Audemars Piguet</a>
+				<a href="../paginas/modelos-rm.html">Richard Mille</a>
+				<a href="../paginas/modelos-patek.html">Patek Philippe</a>
+				<a href="../paginas/modelos-jacob.html">Jacob & Co</a>
+			</nav>
+		</header>
+
+			<section id="rolex"> <!-- SESSÃO INICIAL DA PAGINA -->
+				<video class="video" autoplay loop muted>
+					<source src="../videos/famosos.mp4">
+				</video>
+				<div class="conteudo">
+					<h1>RELÓGIOS DOS FAMOSOS</h1>
+					<p>NÃO EXISTE LIMITE PARA UM WATCH LOVER</p>
+				</div>
+			</section>
+
+			<section id="section-2"> <!-- SESSÃO DAS IMAGENS DOS MODELOS -->
+				<div class="alinhamento-modelos">
+					<h2>CONFIRA ALGUMAS CELEBRIDADES QUE ASSIM COMO NÓS, TAMBÉM AMAM RELÓGIOS</h2>
+			
+					<ul>
+						<li>
+							<a href="../imagens/famosos/foto1.jpg"><img src="../imagens/famosos/foto1.jpg" alt="Foto 01"></a>
+							<h3>LIONEL MESSI</h3>
+							<p>Usando um Patek Philippe Nautilus Perpetual Calendar Moonphase em ouro branco.</p>
+							<p>O relógio possui Calendário Perpétuo com dia da semana, data, mês, indicador de ano bissexto, horário em 24 horas e indicador de fases da lua.</p>
+							<h4>Valor na boutique: 126.850,00 Dólares</h4>
+						</li>
+
+						<li>
+							<a href="../imagens/famosos/foto2.jpg"><img src="../imagens/famosos/foto2.jpg" alt="Foto 02"></a>
+							<h3>CRISTIANO RONALDO</h3>
+							<p>Usando o seu incrível Jacob & Co Epic X Flight of CR7 Baguette em parceria com a marca, relógio em ouro rose com 26 diamantes na lapidação baguete no bisel.</p>
+							<p>Depois de 20 anos de amizade e parcerias, a J&CO lançou hoje uma incrível coleção de 4 relógios em parceria com o jogador para celebrar o seu sucesso.</p>
+							<p>No mostrador do relógio encontra-se uma bola na parte superior, uma imagem do jogador em campo, a assinatura dele e a logo CR7.</p>
+							<h4>Valor na boutique: 145.000,00 Dólares</h4>
+						</li>
+
+						<li>
+							<a href="../imagens/famosos/foto3.jpg"><img src="../imagens/famosos/foto3.jpg" alt="Foto 03"></a>
+							<h3>NEYMAR JR</h3>
+							<p>O jogador da Seleção Brasileira e do PSG aparece usando um incrível Rolex Daytona “Eye of the Tiger” em ouro amarelo cravejado de diamantes no bisel e no mostrador.</p>
+							<p>Este que é um Relógio raríssimo e extremamente procurado!</p>
+							<h4>Valor de mercado: 260.000,00 Dólares</h4>
+						</li>
+
+						<li>
+							<a href="../imagens/famosos/foto4.jpg"><img src="../imagens/famosos/foto4.jpg" alt="Foto 04"></a>
+							<h3>FELIPE MASSA</h3>
+							<p>O piloto recentemente postou uma foto em que usa um belo Richard Mille RM 67-02 Sebastien Ogier Extra Flat.</p>
+							<p>Relógio feito de quartz TPT e carbono TPT(materiais patenteados pela RM), além de componentes em titânio grau 5, essa combinação gera o resultado de um relógio super resistente que pesa apenas 32 gramas!</p>
+							<h4>Valor na boutique: 130.000,00 Dólares</h4>
+							<h4>Valor de mercado: 350.000,00 Dólares</h4>
+						</li>
+
+						<li>
+							<a href="../imagens/famosos/foto5.jpg"><img src="../imagens/famosos/foto5.jpg" alt="Foto 05"></a>
+							<h3>CRISTIANO RONALDO</h3>
+							<p>O jogador recebeu o prêmio de maior artilheiro em seleções usando o seu J&CO Bugatti Chiron Tourbillon feito sob medida para ter o visual do seu Bugatti Chiron de 3 milhões de Dólares!</p>
+							<p>O relógio é cravejado com 232 diamantes na lapidação baguete e 109 safiras, totalizando 21 quilates.</p>
+							<p>Feito em parceria com a Bugatti para homenagear o Bugatti Chiron, esse Jacob & Co foi feito de forma que reproduz até as silhuetas do carro.</p>
+							<p>Com um mecanismo de 578 componentes, esse relógio possui a capacidade de fazer uma reprodução do funcionamento do motor W16 da Bugatti quando ativado.</p>
+							<p>Peça única, feita exclusivamente para o jogador.</p>
+							<h4>Valor na boutique: 1.000.000,00 Dólares</h4>
+						</li>
+
+						<li>
+							<a href="../imagens/famosos/foto6.jpg"><img src="../imagens/famosos/foto6.jpg" alt="Foto 06"></a>
+							<h3>CARLINHOS MAIA</h3>
+							<p>Carlinhos Maia postou uma foto usando um Patek Philippe Nautilus 5712/1A em aço.</p>
+							<p>O relógio conta com indicador de reserva de marcha, data e fases da lua.</p>
+							<p>Esse relógio é tão procurado que seu valor de mercado é quase 5x maior que o valor vendido na boutique!</p>
+							<h4>Valor na boutique: $40,000.00 Dólares</h4>
+							<h4>Valor de mercado: $190,00.00 Dólares</h4>
+						</li>
+
+						<li>
+							<a href="../imagens/famosos/foto7.jpg"><img src="../imagens/famosos/foto7.jpg" alt="Foto 07"></a>
+							<h3>JOSÉ CARLOS SEMENZATO</h3>
+							<p>Empresário e Shark no Shark Tank Brasil, José Carlos Semenzato, que costuma aparecer usando belas peças, usando um relógio incrível!</p>
+							<p>Dessa vez a peça escolhida foi um Audemars Piguet Royal Oak em ouro rose com mostrador preto.</p>
+							<h4>Valor na boutique: 56.700,00 Dólares</h4>
+						</li>
+
+						<li>
+							<a href="../imagens/famosos/foto8.jpg"><img src="../imagens/famosos/foto8.jpg" alt="Foto 08"></a>
+							<h3>LEBRON JAMES</h3>
+							<p>O jogador de basquete postou uma foto usando o relógio que deu o que falar. O Patek Philippe Nautilus 5711/1A-018 “Tiffany” feito em comemoração aos 170 anos de parceria entre a Patek Philippe e a Tiffany!</p>
+							<p>Sendo uma edição limitada de 170 peças, esse relógio recentemente chegou ao valor de 6.500.000,00 Dólares no leilão da Phillips tendo o valor na boutique de 52.635,00 Dólares por conta de sua raridade.</p>
+						</li>
+					</ul>
+				</div>
+			</section>
+			
+			<div id="rodape-0"> <!-- ANTES DO RODAPÉ -->
+				<div class="parte-1">
+					<img class="logo-rodape" src="../imagens/logobold-branco.png">
+					<p>PARA OS AMANTES DA ALTA RELOJOARIA</p>
+				</div>
+
+				<div class="parte-2">
+					<h3>SITES OFICIAIS DAS MARCAS</h3>
+					<ul>
+						<li><a href="https://www.rolex.com/pt_br">Rolex</a></li>
+						<li><a href="https://www.audemarspiguet.com/com/en/home.html">Audemars Piguet</a></li>
+						<li><a href="https://www.richardmille.com/">Richard Mille</a></li>
+						<li><a href="https://www.patek.com/en/home">Patek Philippe</a></li>
+						<li><a href="https://jacobandco.com/">Jacob & Co</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<footer id="rodape"> <!-- RODAPÉ -->
+				<span class="txt-rodape-1" href="">© 2022 Watch Lovers</span>
+				<a class="txt-rodape-2" href="https:/instagram.com/gugaliisboa">Created by Gustavo</a>
+			</footer>
+	</body>
+</html>
